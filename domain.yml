@@ -1,0 +1,34 @@
+domain:
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny 
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - courses
+  - branches_info
+  - stationary_info
+  - computer_labs_info
+  - my_name_is
+  - ask_apply_online
+  - scholarship_info
+  - campus_life
+  - faculty_info
+  - college_info
+  - library_info
+  - auditorium_info
+  - dsa_lawn_info
+  - cafeteria_info
+  - amphitheater_info
+  - general_info
+  - cse_department_info
+  - ise_department_info
+  - civil_department_info
+  - mech_department_info
+  - petroleum_department_info1
+  - petroleum_department_info2
+  - placements_info
+  - hostel_facilities_info

@@ -1,0 +1,120 @@
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_cheer_up:
+    - text: "I'm sorry to hear that. Is there something I can do to make your day better?"
+  utter_courses:
+    - text: "We offer a variety of programs including Computer Science, Business Administration, and more. What are you interested in?"
+  utter_scholarship_info:
+    - text: "Our university offers merit-based and need-based scholarships. You can find more information on our website."
+  utter_faculty_info:
+    - text: "Our faculty members are highly qualified and experienced in their respective fields. Let me know if you'd like details about a specific program."
+  utter_branches_info:
+    - text: "Presidency University offers branches like CSE, ISE, Data Science, AIML, and Civil Engineering. Let me know if you'd like more details about any branch."
+  utter_stationary_info:
+    - text: "The Engineering block has two stationary and xerox shops located in 'D block' and 'Basement P block.'"
+  utter_computer_labs_info:
+    - text: "Computer labs are available in 'D block' and 'L block.' Let me know if you need directions or more details."
+  utter_college_info:
+    - text: "Presidency University, Bangalore, is a private institution established in 2013 in Yelahanka. It offers undergraduate, postgraduate, and doctoral programs in engineering, management, law, and more. The university is known for its modern campus, industry-oriented curriculum, experienced faculty, and strong placement support. It emphasizes academic excellence, research, and holistic student development."
+  utter_library_info:
+    - text: "Presidency University has a comprehensive library system with over 40,500 books, 343 journals, and 45 magazines. It subscribes to 23 online databases across various disciplines like Engineering, Law, Management, and Humanities. The library uses KOHA management software and offers features like OPAC, DSpace, Turnitin, and remote access through Knimbus."
+  utter_auditorium_info:
+    - text: "The auditorium at Presidency University is a venue for a variety of programs, including international affairs talks, cultural events, seminars, workshops, technical presentations, drama and theater productions, and alumni meets. It is equipped with modern audio-visual facilities to host large gatherings and events."
+  utter_dsa_lawn_info:
+    - text: "The DSA lawn, managed by the Department of Student Affairs, is a vibrant space for student engagement. Activities like cultural expression, community-building programs, and personal development events are organized here to foster inclusivity and interaction among students."
+  utter_cafeteria_info:
+    - text: "Presidency University has two main cafeterias: Uday Upahar and Shivasagar, offering a variety of food options, including north and south Indian cuisines. The campus also has outlets like CCD and Hatti Coffee, ensuring hygienic and diverse food choices for everyone. The cafeterias can accommodate over 550 students at a time, while satellite food courts are available across the campus."
+  utter_amphitheater_info:
+    - text: "The amphitheater at Presidency University can accommodate up to 500 people. Surrounded by greenery and beautiful landscapes, it provides a natural ambience for programs like cultural events, seminars, and other gatherings."
+  utter_general_info:
+    - text: "Presidency University, located in Rajankunte, Dibbur, Yelahanka, Bangalore, offers a world-class learning environment with state-of-the-art facilities, including auditoriums, cafeterias, libraries, amphitheaters, and much more. The university is known for its diverse courses and vibrant campus life."
+  utter_cse_department_info:
+    - text: |
+          Presidency University offers undergraduate and postgraduate programs in Computer Science and Engineering. 
+          The curriculum emphasizes practical learning and international exposure. A variety of CSE courses are offered, including:
+            - General CSE
+            - Cyber Security
+            - CSE Networks
+            - Data Science
+            - Ph.D. in Sciences and Engineering (postgraduate program)
+          Refer to this link for more information: [School of Engineering - CSE](https://presidencyuniversity.in/school/school-of-engineering).
+          
+  utter_ise_department_info:
+      - text: |
+          Presidency University offers undergraduate programs in Information Science and Engineering. 
+          A variety of ISE courses are available, including:
+            - General ISE
+            - ISE with AIML specialization
+          Refer to this link for more information: [School of Engineering - ISE](https://presidencyuniversity.in/school/school-of-engineering).
+
+  utter_civil_department_info:
+      - text: |
+          The Department of Civil Engineering at Presidency University is dedicated to teaching and research activities in civil engineering. 
+          The highly experienced faculty train students for challenging jobs in industries and research and development activities for societal welfare.
+          Refer to this link for more information: [Department of Civil Engineering](https://presidencyuniversity.in/school/school-of-engineering/department/department-of-civil-engineering).
+
+  utter_mech_department_info:
+      - text: |
+          The Mechanical Engineering program at Presidency University prepares students for global opportunities in the manufacturing sector. 
+          Key focus areas include:
+            - Design
+            - Mechanics
+            - Mechatronics
+            - Manufacturing
+            - Thermal Sciences
+          Refer to this link for more information: [Department of Mechanical Engineering](https://presidencyuniversity.in/school/school-of-engineering/department/department-of-mechanical-engineering).
+
+  utter_petroleum_department_info1:
+      - text: |
+          Energy is an integral part of daily life, powering smartphones, vehicles, and homes. Petroleum engineers play a key role in fueling the world with innovation and collaboration. 
+          Refer to this link for more information: [Department of Petroleum Engineering](https://presidencyuniversity.in/school/school-of-engineering/department/department-of-petroleum-engineering/about-us).
+
+  utter_petroleum_department_info2:
+      - text: |
+          The Petroleum Engineering department offers a comprehensive curriculum, including a wide range of electives for specialization. 
+          The department also provides modern laboratories equipped with advanced technology for practical and research activities. 
+          Refer to this link for more information: [Department of Petroleum Engineering](https://presidencyuniversity.in/school/school-of-engineering/department/department-of-petroleum-engineering/about-us).
+
+  utter_placements_info:
+      - text: |
+          Presidency University Bangalore has an excellent placement record. Key placement statistics for 2023 include:
+            - Placement Percentage: 98.93%
+            - Highest Package: INR 13.58 LPA
+            - Average Package: INR 4.93 LPA
+            - Total Students Placed: 554
+          For more details, refer to this link: [Placements Information](https://www.shiksha.com/university/presidency-university-bangalore-47151/placement).
+
+  utter_hostel_facilities_info:
+      - text: |
+          Presidency University provides excellent hostel facilities, creating a "home away from home" for both domestic and international students. 
+          Hostel amenities include:
+            - Twin and triple-shared rooms with beds, study tables, cupboards, and free Wi-Fi
+            - Independent dining areas
+            - Laundry rooms
+            - Common rooms with TVs
+            - Indoor and outdoor game facilities
+            - Hot and cold purified drinking water
+          Hostel fee: INR 1.8 Lakh. 
+          Refer to this link for more details: [Student Housing Facilities](https://presidencyuniversity.in/student-life/student-housing-facilities).
+
+  utter_travel_facilities_info:
+  - text: |
+      Presidency University in Bangalore, India, provides efficient transport facilities for students and employees.  
+      Transportation services include:  
+        - **Bus Services:**  
+          - A fleet of air-conditioned buses traveling to various locations in Bangalore.  
+          - Students and employees can commute to and from the university via these buses.  
+          - Students must register with the Transport Department and pay an annual transport fee.  
+          - Entry is allowed only with a valid bus pass.  
+
+        - **Shuttle Services:**  
+          - Shuttle services to nearby bus stations for day scholars.  
+          - Shuttle services to hostels within a 2-kilometer radius of the university.  
+
+        - **Other Transportation Options:**  
+          - Battery-operated buggies and Segway vehicles for the elderly and differently abled.  
+
+      For more details, refer to this link: [Transport Facilities](https://presidencyuniversity.in/student-life/transport-facilities).

@@ -1,0 +1,85 @@
+rules:
+- rule: Greet the user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Ask about branches
+  steps:
+    - intent: branches_info
+    - action: utter_branches_info
+
+- rule: Ask about stationary
+  steps:
+    - intent: stationary_info
+    - action: utter_stationary_info
+
+- rule: Ask about computer labs
+  steps:
+    - intent: computer_labs_info
+    - action: utter_computer_labs_info
+
+- rule: Ask about college
+  steps:
+    - intent: college_info
+    - action: utter_college_info
+
+- rule: Ask about library
+  steps:
+    - intent: library_info
+    - action: utter_library_info
+
+- rule: Ask about auditorium
+  steps:
+    - intent: auditorium_info
+    - action: utter_auditorium_info
+
+- rule: Provide CSE department info
+  steps:
+    - intent: cse_department_info
+    - action: utter_cse_department_info
+
+- rule: Provide ISE department info
+  steps:
+    - intent: ise_department_info
+    - action: utter_ise_department_info
+
+- rule: Provide Civil Engineering info
+  steps:
+    - intent: civil_department_info
+    - action: utter_civil_department_info
+
+- rule: Provide Mechanical Engineering info
+  steps:
+    - intent: mech_department_info
+    - action: utter_mech_department_info
+
+- rule: Provide Petroleum Engineering info (general)
+  steps:
+    - intent: petroleum_department_info1
+    - action: utter_petroleum_department_info1
+
+- rule: Provide Petroleum Engineering info (specializations)
+  steps:
+    - intent: petroleum_department_info2
+    - action: utter_petroleum_department_info2
+
+- rule: Provide placement info
+  steps:
+    - intent: placements_info
+    - action: utter_placements_info
+
+- rule: Provide hostel facilities info
+  steps:
+   - intent: hostel_facilities_info
+   - action: utter_hostel_facilities_info
+
+- rule: Provide travel facilities info
+  steps:
+    - intent: travel_facilities_info
+    - action: utter_travel_facilities_info

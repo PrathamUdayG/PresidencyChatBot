@@ -1,0 +1,116 @@
+stories:
+- story: User asks about courses
+  steps:
+    - intent: courses
+    - action: utter_courses
+
+- story: User asks about branches
+  steps:
+    - intent: branches_info
+    - action: utter_branches_info
+
+- story: User asks about stationary
+  steps:
+    - intent: stationary_info
+    - action: utter_stationary_info
+
+- story: User asks about computer labs
+  steps:
+    - intent: computer_labs_info
+    - action: utter_computer_labs_info
+
+- story: User is sad
+  steps:
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+
+- story: User asks about faculty
+  steps:
+    - intent: faculty_info
+    - action: utter_faculty_info
+
+- story: User asks about scholarships
+  steps:
+    - intent: scholarship_info
+    - action: utter_scholarship_info
+
+- story: User asks about college info
+  steps:
+    - intent: college_info
+    - action: utter_college_info
+
+- story: User asks about library
+  steps:
+    - intent: library_info
+    - action: utter_library_info
+
+- story: User asks about auditorium
+  steps:
+    - intent: auditorium_info
+    - action: utter_auditorium_info
+
+- story: User asks about DSA lawn
+  steps:
+    - intent: dsa_lawn_info
+    - action: utter_dsa_lawn_info
+
+- story: User asks about cafeteria
+  steps:
+    - intent: cafeteria_info
+    - action: utter_cafeteria_info
+
+- story: User asks about amphitheater
+  steps:
+    - intent: amphitheater_info
+    - action: utter_amphitheater_info
+
+- story: User asks for general information
+  steps:
+    - intent: general_info
+    - action: utter_general_info
+
+- story: User asks about CSE department
+  steps:
+      - intent: cse_department_info
+      - action: utter_cse_department_info
+
+- story: User asks about ISE department
+  steps:
+      - intent: ise_department_info
+      - action: utter_ise_department_info
+
+- story: User asks about Civil Engineering
+  steps:
+      - intent: civil_department_info
+      - action: utter_civil_department_info
+
+- story: User asks about Mechanical Engineering
+  steps:
+      - intent: mech_department_info
+      - action: utter_mech_department_info
+
+- story: User asks about Petroleum Engineering (general)
+  steps:
+      - intent: petroleum_department_info1
+      - action: utter_petroleum_department_info1
+
+- story: User asks about Petroleum Engineering (specializations)
+  steps:
+      - intent: petroleum_department_info2
+      - action: utter_petroleum_department_info2
+
+- story: User asks about placements
+  steps:
+      - intent: placements_info
+      - action: utter_placements_info
+
+- story: User asks about hostel facilities
+  steps:
+      - intent: hostel_facilities_info
+      - action: utter_hostel_facilities_info
+
+- story: User asks about travel facilities
+  steps:
+    - intent: travel_facilities_info
+    - action: utter_travel_facilities_info
+

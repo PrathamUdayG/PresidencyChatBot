@@ -1,0 +1,291 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: courses
+  examples: |
+    - what different courses are offered
+    - different courses provided by the university
+    - list of different courses
+    - list of different programs
+    - can you help me with the programs Presidency University offers
+    - different programs offered by the University
+    - different training programs offered
+
+- intent: branches_info
+  examples: |
+    - What branches are available for B.Tech?
+    - Tell me about the B.Tech branches
+    - Which engineering branches does Presidency University offer?
+    - Branches like CSE, ISE, DATA-SCIENCE, AIML, Civil
+    - Available B.Tech streams
+
+- intent: stationary_info
+  examples: |
+    - Where can I find stationary in the engineering block?
+    - Are there stationary shops in the university?
+    - Tell me about the stationary and xerox shops
+    - What are the stationary shop names in the Engineering block?
+    - Information about stationary in "D block" and "Basement P block"
+
+
+
+- intent: computer_labs_info
+  examples: |
+    - Where are the computer labs located?
+    - Tell me about the computer labs in the university
+    - Are there computer labs in "D block"?
+    - Information about computer labs in "D block" and "L block"
+
+- intent: my_name_is
+  examples: |
+    - [Shariq Ayaz] (person)
+    - I am [Areesha] (person)
+    - I am [Ashna] (person)
+    - I'm [Aliyah] (person)
+    - I am [Rahil Inzamam] (person)
+    - My name is [Jamal Anjum] (person)
+    - My name is [Nazin] (person)
+    - I am [Sana] (person)
+    - Myself [Ahad] (person)
+    - This side [Samad] (person)
+
+- intent: ask_apply_online
+  examples: |
+    - Can I apply online?
+    - How can I apply online?
+    - Online application process
+    - Online application procedure
+    - What is online application process?
+    - Can you tell me the online application process?
+    - Is it possible to apply online?
+    - Is there any way to apply online?
+    - Can you please help me with the process of online application?
+
+
+- intent: scholarship_info
+  examples: |
+    - Tell me about scholarships
+    - Are there any scholarships?
+    - What types of scholarships are available?
+    - How can I apply for scholarships?
+    - Scholarship details
+    - Details about scholarships offered
+
+- intent: campus_life
+  examples: |
+    - What is campus life like?
+    - Tell me about student life
+    - How is campus life?
+    - Activities available on campus
+    - Clubs and events at the university
+    - What is it like living on campus?
+
+- intent: faculty_info
+  examples: |
+    - Information about faculty members
+    - Who are the faculty members?
+    - Details about professors
+    - Who teaches in the [Computer Science] (program)?
+    - Can you tell me about the faculty?
+
+- intent: library_info
+  examples: |
+    - Tell me about the library
+    - Does Presidency University have a library?
+    - Library facilities at Presidency University
+    - Information about the library system
+    - What resources are available in the library?
+    - Details about the library at Presidency University
+    - How many books are there in the library?
+    - What software does the library use?
+
+- intent: auditorium_info
+  examples: |
+    - Tell me about the auditorium
+    - What events are conducted in the auditorium?
+    - Information about programs held in the auditorium
+    - Does the university have an auditorium for seminars?
+    - Where are cultural programs conducted?
+    - What is the seating capacity of the auditorium?
+
+- intent: dsa_lawn_info
+  examples: |
+    - Tell me about the DSA lawn
+    - What activities are conducted on the DSA lawn?
+    - Where are student engagement programs held?
+    - What is the use of the DSA lawn?
+    - Is the DSA lawn used for cultural programs?
+
+- intent: cafeteria_info
+  examples: |
+    - Tell me about the cafeteria and food courts
+    - What food options are available on campus?
+    - Are there canteens at the university?
+    - Details about Uday Upahar and Shivasagar
+    - Is there a CCD on campus?
+    - Are north and south Indian dishes available in the cafeteria?
+    - How many cafeterias are there in the university?
+
+- intent: amphitheater_info
+  examples: |
+    - Tell me about the amphitheater
+    - What programs are conducted in the amphitheater?
+    - Does the university have an amphitheater?
+    - What is the seating capacity of the amphitheater?
+    - Where is the amphitheater located on campus?
+
+- intent: general_info
+  examples: |
+    - Tell me about Presidency University
+    - General information about the university
+    - Where is Presidency University located?
+    - What are the key features of the university?
+    - Provide an overview of Presidency University
+
+
+- intent: cse_department_info
+  examples: |
+    - Tell me about the CSE department
+    - Information about computer science courses
+    - Does the university offer a CSE program?
+    - What CSE courses are available?
+
+- intent: ise_department_info
+  examples: |
+    - Information about ISE
+    - What courses are offered in the ISE department?
+    - Tell me about the Information Science and Engineering program
+
+- intent: civil_department_info
+  examples: |
+    - What does the Civil Engineering department focus on?
+    - Tell me about Civil Engineering
+    - Civil Engineering research activities at the university
+
+- intent: mech_department_info
+  examples: |
+    - Tell me about Mechanical Engineering
+    - Information on the Mechanical Engineering curriculum
+    - What areas are covered in the Mechanical Engineering program?
+
+- intent: petroleum_department_info1
+  examples: |
+    - What is the role of petroleum engineers?
+    - Information about Petroleum Engineering
+    - How does the university support petroleum education?
+
+- intent: petroleum_department_info2
+  examples: |
+    - Tell me about Petroleum Engineering specializations
+    - What electives are available in Petroleum Engineering?
+    - Information about Petroleum Engineering labs
+
+- intent: placements_info
+  examples: |
+    - Tell me about placements at Presidency University
+    - What is the highest package offered at the university?
+    - Details on placement statistics
+
+- intent: hostel_facilities_info
+  examples: |
+    - Information about hostel facilities
+    - Tell me about the hostels
+    - What amenities are provided in the hostels?
+
+- intent: travel_facilities_info
+  examples: |
+    - Information about travel facilities
+    - How can I travel to the university?
+    - Tell me about the transport facilities
+    - Does the university provide bus services?
+    - What transportation options are available at Presidency University?

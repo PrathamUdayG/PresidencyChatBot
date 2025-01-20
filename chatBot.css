@@ -1,0 +1,173 @@
+/* Updated CSS */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ece9e6, #ffffff); /* Subtle gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chatContainer {
+  width: 420px;
+  height: 700px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.chatHeader {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.chatHeader h1 {
+  margin: 0;
+}
+
+.chatHeader p {
+  margin: 5px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.controls button {
+  background: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #3700b3;
+}
+
+.chatBody {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Spacing between messages */
+.msgBubble {
+  max-width: 75%;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botMessage {
+  background: linear-gradient(135deg, #d1c4e9, #ede7f6);
+  align-self: flex-start;
+}
+
+.userMessage {
+  background: linear-gradient(135deg, #bbdefb, #e3f2fd);
+  align-self: flex-end;
+}
+
+/* Dropdown Container */
+.dropdownContainer {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+}
+
+.dropdown-content {
+  display: block;
+}
+
+.feedbackForm {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  display: none;
+}
+
+.feedbackForm.visible {
+  display: block;
+}
+
+.feedbackForm input,
+.feedbackForm textarea,
+.feedbackForm button {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.feedbackForm button {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.feedbackForm button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.chatFooter {
+  padding: 10px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.messageInput {
+  flex: 1;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: space-around;
+}
+.footerIcon {
+  cursor: pointer;
+}
+.footerIcon:hover {
+  color: #6200ea;
+}
