@@ -61,6 +61,7 @@ backend :
 
 
 How to run in Windows:
+Run in windows:
 
 C:\Windows\System32>.\rasa_env\Scripts\activate
 
