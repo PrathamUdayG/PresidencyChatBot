@@ -1,8 +1,7 @@
  # college-enquiry-chatbot-using-RASA
 
 Steps for creating College Enquiry Chatbot:
-<br>
-using RASA
+Using RASA
 
 ### Step - 1
 Create a virtual environment using Anaconda Prompt.
